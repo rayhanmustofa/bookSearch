@@ -2,7 +2,7 @@ const express = require('express')
 const { connect } = require(`./config/mongodb`)
 const app = express()
 const cors = require(`cors`)
-const port = 3000
+const port = process.env.PORT || 3000
 const controller = require('./controllers/controller')
 
 require('dotenv').config()
