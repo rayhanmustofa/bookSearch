@@ -14,7 +14,7 @@ export default function ItemCard({ book }) {
         // console.log('test')
         // console.log(book)
 
-        const url = `http://localhost:3000/favourites`
+        const url = `https://rayhan-books2.herokuapp.com/favourites`
         fetch(url, {
             method: "POST",
             headers: {

@@ -38,7 +38,7 @@ export default function ViewHome() {
 
     const searchHandle = (e) => {
         e.preventDefault()
-        const url = `http://localhost:3000?query=${query}`
+        const url = `https://rayhan-books2.herokuapp.com?query=${query}`
 
         console.log(query)
         fetch(url)

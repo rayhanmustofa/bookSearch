@@ -11,7 +11,7 @@ export default function ViewFavourites() {
 
 
     useEffect(() => {
-        const url = `http://localhost:3000/favourites`
+        const url = `https://rayhan-books2.herokuapp.com/favourites`
         fetch(url)
             .then(response => {
                 if (!response.ok) {
